@@ -558,6 +558,41 @@ table {
     }
 }
 
+.icons-top,
+.icons-bottom {
+    img {
+        animation: tst 0.3s both;
+        opacity: 1;
+    }
+}
+
+@keyframes tst {
+    from {
+        transform: translate(-400%, -80px);
+        opacity: 0;
+    }
+}
+
+.icons-top img:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.icons-top img:nth-child(2) {
+    animation-delay: 0.1s;
+}
+
+.icons-top img:nth-child(3) {
+    animation-delay: 0.2s;
+}
+.icons-top img:nth-child(4) {
+    animation-delay: 0.3s;
+}
+.icons-bottom img:nth-child(1) {
+    animation-delay: 0.4s;
+}
+.icons-bottom img:nth-child(2) {
+    animation-delay: 0.5s;
+}
 #text-preview {
     background: #1e1e1e;
     // z-index: 10;
