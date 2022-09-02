@@ -1,14 +1,8 @@
 <template>
     <transition>
-        <!-- <component :is="Component" /> -->
         <section>
             <div class="line"></div>
-
             <div class="about">
-                <!-- <div id="img-preview">
-        <img alt="Vue logo" src="../assets/img/visualstudio_resize.png" />
-      </div> -->
-
                 <div class="header-windows">
                     <div class="header-menu header-item">
                         <img
@@ -495,7 +489,6 @@ export default {
         background-color: #2a2c2f;
         font-size: 0.8rem;
         .tab-file {
-            // border: 1px solid red;
             padding: 5px 10px 5px 10px;
             width: 120px;
             background-color: #202124;
@@ -511,36 +504,18 @@ export default {
     }
 }
 
-// section {
-//     // background: $color-background-secondary;
-//     // margin: 30;
-//     // padding-top: 122px;
-//     padding-bottom: 20px;
-//     // display: flex;
-//     // justify-content: center;
-//     // align-items: center;
-// }
-
 .about {
     display: flex;
     flex-direction: column;
-    // justify-content: center;
-    // display: flex;
-    // flex-wrap: wrap;
-    // margin-top: 80px;
-    // margin-bottom: 150px;
-    // position: relative;
 }
 .header-windows {
     background: #323233;
-    // z-index: 20;
     color: #c4c0c0;
     font-size: 0.7rem;
     border: 1px solid white;
     border-style: solid solid none solid;
     height: 100%;
     display: flex;
-    // flex-flow: wrap;
     justify-content: space-between;
     padding: 10px;
     max-width: 1000px;
@@ -563,8 +538,6 @@ export default {
             }
         }
     }
-    .header-file {
-    }
 
     .header-button {
         white-space: nowrap;
@@ -586,16 +559,9 @@ export default {
     height: 10px;
 }
 
-/* Track */
-::-webkit-scrollbar-track {
-    // box-shadow: inset 0 0 5px grey;
-    // border-radius: 10px;
-}
-
 /* Handle */
 ::-webkit-scrollbar-thumb {
     background: rgb(94, 94, 94);
-    // border-radius: 10px;
 }
 
 /* Handle on hover */
@@ -622,20 +588,12 @@ table {
 }
 
 .vertical-menu {
-    // top: 500px;
-    // height: 300px;
-    // display: block;
-    // float: left;
     padding: 30px 15px 0px 15px;
-    // width: 30px;
     justify-content: space-between;
     flex-direction: column;
     background-color: #323233;
     max-width: 50px;
     display: flex;
-    // flex: 1;
-    // flex-flow: wrap;
-    // z-index: 2111;
     img {
         width: 20px;
         filter: invert(27%) sepia(51%) saturate(20%) brightness(250%)
@@ -711,27 +669,13 @@ table {
 }
 #text-preview {
     background: #1e1e1e;
-    // z-index: 10;
-    // position:rgb(54, 51, 51)
-    // top: 180px;
-    // left: 500px;
-    // max-width: 900px;
     display: flex;
     flex-direction: row;
     max-width: 1000px;
-    // max-height: 400px;
-    // padding: 40px;
-
-    // border-radius: 10px;
     border: 1px solid white;
     border-style: none solid solid solid;
-    // -webkit-box-shadow: 0px 0px 21px 1px #000000;
-    // -moz-box-shadow: 0px 0px 21px 1px #000000;
-    // -o-box-shadow: 0px 0px 21px 1px #000000;
-    // box-shadow: 0px 0px 21px 1px #000000;
 }
 
-// Cursor blinking CSS Starts...
 .blinking-cursor {
     font-size: 1rem;
     color: #ffffff;

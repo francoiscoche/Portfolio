@@ -24,16 +24,6 @@ import router from './router'
 /* add icons to the library */
 library.add(faUserSecret)
 
-// const App = {
-//     components: {
-//       mdbBtn: mdb.MDBBtn,
-//     },
-//   };
-
-// const app = Vue.createApp({})
-// app.use(router)
-// app.mount('#app')
-
 createApp(App)
     .use(router)
     .component('font-awesome-icon', FontAwesomeIcon)
