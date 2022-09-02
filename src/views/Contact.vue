@@ -1,5 +1,6 @@
 <template>
     <section>
+        <div class="line"></div>
         <div class="contact-network">
             <h2 class="title-section">Contact</h2>
             <!-- <img
@@ -11,10 +12,10 @@
                 alt="logo twitter"
             /> -->
 
-            <ul class="">
+            <ul class="contact-container">
                 <!-- <country-flag country='it' size='normal'/> -->
                 <li
-                    class="contact-container"
+                    class="contact-elem"
                     v-for="(contact, index) in contact_data"
                     v-bind:key="index"
                 >
@@ -60,6 +61,12 @@ export default {
                     value: 'in/francois-coche',
                 },
                 {
+                    type: 'GitHub',
+                    logo: require('@/assets/img/contact_img/github.png'),
+                    url: 'https://github.com/francoiscoche',
+                    value: 'francoiscoche',
+                },
+                {
                     type: 'Localisation',
                     logo: require('@/assets/img/contact_img/Localisation.png'),
                     url: 'https://goo.gl/maps/jRKayDDuZZ9fWgR36',
@@ -80,29 +87,39 @@ export default {
 @import './../sass/variables';
 
 .contact-container {
-    display: flex;
-    padding: 20px;
-}
-
-.contact-data {
-    margin-left: 20px;
-    .contact-type {
-        font-size: 1.1rem;
-        font-weight: 600;
+    padding-top: 40px;
+    animation: fromTheBottom 0.5s;
+    opacity: 1;
+    .contact-elem {
+        display: flex;
+        padding: 20px;
+        .contact-img {
+            img {
+                width: 40px;
+            }
+        }
+        .contact-data {
+            margin-left: 20px;
+            .contact-type {
+                font-size: 1.1rem;
+                font-weight: 600;
+            }
+        }
     }
 }
 
 section {
-    // background: $color-background-primary;
     margin: 30;
     padding: 122px;
 }
-.contact-network {
-    ul {
-        padding-top: 40px;
+
+@keyframes fromTheBottom {
+    from {
+        opacity: 0;
+        transform: translateY(400px);
     }
-    img {
-        width: 30px;
+    to {
+        opacity: 1;
     }
 }
 </style>
