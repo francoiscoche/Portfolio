@@ -1,17 +1,17 @@
 <template>
     <div class="content">
         <div class="overlay"></div>
-        <header id="site-header">
-            <!-- <div class="header-top"> -->
+        <!-- <header id="site-header"> -->
+        <div class="header-top">
             <!-- <p class="header-username">François</p> -->
             <nav>
                 <router-link to="/">A propos</router-link>
-                <router-link to="competences">Compétences</router-link>
+                <router-link to="competences">Skills</router-link>
                 <router-link to="projects">Projects</router-link>
                 <router-link to="contact">Contact</router-link>
             </nav>
-            <!-- </div> -->
-        </header>
+        </div>
+        <!-- </header> -->
         <router-view v-slot="{ Component }">
             <transition name="fade" mode="out-in">
                 <component :is="Component" />
@@ -80,17 +80,14 @@ h2.title-section {
     from {
         transform: translateX(-10%);
     }
-    to {
-    }
 }
 
-#content {
-    color: white;
-}
 section {
-    margin-left: 250px;
+    // margin-left: 250px;
     // background-color: #111;
     color: white;
+    // padding: 122px;
+    padding: 100px 20px 100px 100px;
 }
 
 section::after {
@@ -104,16 +101,18 @@ section::after {
     position: fixed;
     // background-image: url(http://localhost:8080/img/code-background.8f7f05bb.jpg);
     // background-size: cover;
+
     z-index: -1;
     left: 0;
     right: 0;
     bottom: 0;
     // /* opacity: 0.5; */
     // height: 100%;
-
-    background: linear-gradient(#000000c4, #000000c4),
-        url(../src/assets/img/code-background.jpg);
-    background-size: cover;
+    // background-image: url(http://localhost:8080/img/code-background.8f7f05bb.jpg);
+    // background: linear-gradient(#000000c4, #000000c4),
+    //     url(../src/assets/img/code-background.jpg);
+    // background-size: cover;
+    background-color: #0c0924;
 }
 
 // .overlay {
@@ -127,7 +126,7 @@ section::after {
 //     z-index: -1;
 //     back
 //     opacity: 0.9;
-//     background-image: url(http://localhost:8080/img/code-background.8f7f05bb.jpg);
+// background-image: url(http://localhost:8080/img/code-background.8f7f05bb.jpg);
 //     background-repeat: no-repeat;
 //     // background-position: 50% 0;
 //     background-size: cover;
@@ -136,15 +135,15 @@ section::after {
 .line {
     position: absolute;
     z-index: 10;
-    height: 80%;
+    height: 90%;
     left: 250px;
     // z-index: 10;
-    top: 52px;
+    top: 0px;
     // bottom: 235px;
     opacity: 1;
-    background-color: white;
-    width: 1px;
     // background-color: white;
+    width: 1px;
+    background-color: white;
     animation: lineDown 0.6s;
 }
 // // }
@@ -155,7 +154,7 @@ section::after {
         opacity: 0;
     }
     to {
-        height: 80%;
+        height: 90%;
         opacity: 1;
     }
 }
@@ -167,9 +166,25 @@ section::after {
     width: 100%;
     top: 0;
     left: 0;
+    display: flex;
+    flex-direction: row;
 }
+
+@media (max-width: 850px) {
+    .content {
+        flex-direction: column;
+        section {
+            margin: 0px;
+            padding: 20px;
+
+            .line {
+                display: none;
+            }
+        }
+    }
+}
+
 .exact-active-link {
-    display: inline-block;
     color: $font-base-white;
     font-weight: bold;
     // transform: translate(8%);
@@ -202,15 +217,38 @@ section::after {
 nav {
     padding-top: 200px;
     padding-left: 70px;
+    display: flex;
+    flex-direction: column;
+
     a {
         color: $font-base-white;
         text-decoration: none;
         margin-bottom: 20px;
-        display: block;
+        margin-right: auto;
+        // display: block;
         letter-spacing: 1px;
         transition-duration: 0.15s;
         &:hover {
             color: $font-base-white;
+        }
+    }
+}
+
+@media (max-width: 850px) {
+    nav {
+        flex-direction: row;
+        justify-content: flex-start;
+        padding: 20px;
+        overflow-x: scroll;
+        white-space: nowrap;
+
+        .exact-active-link {
+            transform: none;
+        }
+
+        a {
+            margin: 0;
+            padding: 10px;
         }
     }
 }
@@ -228,7 +266,7 @@ nav {
         position: absolute;
         z-index: 10;
         left: 250px;
-        top: 52px;
+        top: 0px;
         // bottom: 235px;
         width: 1px;
         background-color: white;
@@ -247,7 +285,7 @@ nav {
 
 .fade-enter-active,
 .fade-leave-active {
-    transition: opacity 0.5s ease;
+    transition: opacity 0.3s ease;
 }
 .fade-enter-from,
 .fade-leave-to {

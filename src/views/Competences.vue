@@ -129,14 +129,15 @@ export default {
     width: 1px;
     height: 200px;
     background-color: white;
+    display: none; // a modifier
     // animation: lineDown 0.6s;
 }
 
-section {
-    // background: $color-background-primary;
-    margin: 30;
-    padding: 122px;
-}
+// section {
+//     // background: $color-background-primary;
+//     margin: 30;
+//     padding: 122px;
+// }
 
 ul {
     padding-left: 0;

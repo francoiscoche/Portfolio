@@ -135,7 +135,7 @@ export default {
                     },
                 },
                 {
-                    title: 'Sopra Steria - Consultant',
+                    title: 'Sopra Steria - Consultant - Altice France',
                     text: 'This is a wider card with supporting textbelow as a natural lead-in to additional content. This content is a little bit longer his is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer',
                     img: require('@/assets/img/altice.png'),
                     labels: {
@@ -148,7 +148,7 @@ export default {
                     },
                 },
                 {
-                    title: 'Sopra Steria - Consultant',
+                    title: 'Sopra Steria - Consultant - Ministère de la Justice',
                     text: 'This is a wider card with supporting textbelow as a natural lead-in to additional content. This content is a little bit longer his is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer',
                     img: require('@/assets/img/justice.png'),
                     labels: {
@@ -161,7 +161,7 @@ export default {
                     },
                 },
                 {
-                    title: 'Sopra Steria - Consultant',
+                    title: 'Sopra Steria - Consultant - Altice - France',
                     text: 'This is a wider card with supporting textbelow as a natural lead-in to additional content. This content is a little bit longer his is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer',
                     img: require('@/assets/img/altice.png'),
                     labels: {
@@ -174,7 +174,7 @@ export default {
                     },
                 },
                 {
-                    title: 'Sopra Steria - Consultant',
+                    title: 'Sopra Steria - Consultant - La Française des Jeux',
                     text: 'This is a wider card with supporting textbelow as a natural lead-in to additional content. This content is a little bit longer his is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer',
                     img: require('@/assets/img/fdj.png'),
                     labels: {
@@ -200,7 +200,7 @@ export default {
     margin-bottom: 30px;
     display: flex;
     flex-direction: row;
-    border: 1px solid white;
+    border: 1px solid #949494;
     max-width: 1000px;
     padding: 30px;
 
@@ -214,7 +214,7 @@ export default {
         padding-left: 20px;
         .etiquette-mission-card {
             display: flex;
-            flex-direction: row;
+            flex-wrap: wrap;
 
             div {
                 background-color: white;
@@ -224,10 +224,18 @@ export default {
         }
     }
 }
-
+@media (max-width: 1080px) {
+    .card-container {
+        flex-direction: column;
+    }
+    .img-card {
+        margin: auto;
+        padding-bottom: 23px;
+    }
+}
 section {
-    margin: 30;
-    padding: 122px;
+    // margin: 30;
+    // padding: 122px;
 
     .card {
         background: rgb(0, 0, 0);

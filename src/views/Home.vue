@@ -97,6 +97,20 @@
                                             <span class="html-chevron"
                                                 >&lt;</span
                                             >
+                                            <span class="html-div"
+                                                >template</span
+                                            >
+                                            <span class="html-chevron"
+                                                >&gt;</span
+                                            >
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>
+                                            <span class="html-chevron"
+                                                >&lt;</span
+                                            >
                                             <span class="html-div">div</span>
                                             <span class="html-class">
                                                 class</span
@@ -108,7 +122,7 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>2</td>
+                                        <td>3</td>
                                         <td>
                                             &ensp; &ensp; &ensp;
                                             <span class="html-chevron"
@@ -128,7 +142,7 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>3</td>
+                                        <td>4</td>
                                         <td class="border-row">
                                             &ensp; &ensp; &ensp;
                                             <span class="html-chevron"
@@ -156,7 +170,7 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>4</td>
+                                        <td>5</td>
                                         <td>
                                             <span class="html-chevron"
                                                 >&lt;/</span
@@ -167,7 +181,7 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>5</td>
+                                        <td>6</td>
                                         <td>
                                             <span class="html-chevron"
                                                 >&lt;</span
@@ -184,7 +198,7 @@
                                     </tr>
 
                                     <tr>
-                                        <td>6</td>
+                                        <td>7</td>
                                         <td>
                                             &ensp; &ensp; &ensp;
                                             <span class="html-chevron"
@@ -199,7 +213,7 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>7</td>
+                                        <td>8</td>
                                         <td>
                                             &ensp; &ensp; &ensp;&ensp; &ensp;
                                             &ensp;&ensp;I was deployed in
@@ -217,7 +231,7 @@
                                     <tr></tr>
 
                                     <tr>
-                                        <td>6</td>
+                                        <td>9</td>
                                         <td>
                                             &ensp; &ensp; &ensp;
                                             <span class="html-chevron"
@@ -232,7 +246,7 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>7</td>
+                                        <td>10</td>
                                         <td>
                                             &ensp; &ensp; &ensp;&ensp; &ensp;
                                             &ensp;&ensp; knowledge.
@@ -246,7 +260,7 @@
                                     </tr>
 
                                     <tr>
-                                        <td>7</td>
+                                        <td>11</td>
                                         <td>
                                             &ensp; &ensp; &ensp;
                                             <span class="html-chevron"
@@ -260,7 +274,7 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>8</td>
+                                        <td>12</td>
                                         <td>
                                             &ensp; &ensp; &ensp;&ensp; &ensp;
                                             &ensp;&ensp; and associated
@@ -277,7 +291,7 @@
                                     </tr>
 
                                     <tr>
-                                        <td>9</td>
+                                        <td>13</td>
                                         <td>
                                             <span class="html-chevron"
                                                 >&lt;/</span
@@ -288,24 +302,18 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>10</td>
-                                        <td></td>
-                                    </tr>
-                                    <tr>
-                                        <td>11</td>
-                                        <td></td>
-                                    </tr>
-                                    <tr>
-                                        <td>12</td>
-                                        <td></td>
-                                    </tr>
-                                    <tr>
-                                        <td>13</td>
-                                        <td></td>
-                                    </tr>
-                                    <tr>
                                         <td>14</td>
-                                        <td></td>
+                                        <td>
+                                            <span class="html-chevron"
+                                                >&lt;/</span
+                                            >
+                                            <span class="html-div"
+                                                >template</span
+                                            >
+                                            <span class="html-chevron"
+                                                >&gt;</span
+                                            >
+                                        </td>
                                     </tr>
                                     <tr>
                                         <td>15</td>
@@ -313,6 +321,83 @@
                                     </tr>
                                     <tr>
                                         <td>16</td>
+                                        <td>
+                                            <span class="html-chevron"
+                                                >&lt;</span
+                                            >
+                                            <span class="html-div">script</span>
+                                            <span class="html-chevron"
+                                                >&gt;</span
+                                            >
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>17</td>
+                                        <td>
+                                            <span class="html-div"
+                                                >export default
+                                            </span>
+                                            <span class="html-bracket">{</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>18</td>
+                                        <td>
+                                            name:
+                                            <span class="html-class-writed"
+                                                >'Home'</span
+                                            >,
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>19</td>
+                                        <td>
+                                            <span class="html-bracket">}</span>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>20</td>
+                                        <td>
+                                            <span class="html-chevron"
+                                                >&lt;/</span
+                                            >
+                                            <span class="html-div">script</span>
+                                            <span class="html-chevron"
+                                                >&gt;</span
+                                            >
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>21</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>22</td>
+                                        <td>
+                                            <span class="html-chevron"
+                                                >&lt;</span
+                                            >
+                                            <span class="html-div">style</span>
+                                            <span class="html-chevron"
+                                                >&gt;</span
+                                            >
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>23</td>
+                                        <td>
+                                            <span class="html-chevron"
+                                                >&lt;/</span
+                                            >
+                                            <span class="html-div">style</span>
+                                            <span class="html-chevron"
+                                                >&gt;</span
+                                            >
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>24</td>
                                         <td></td>
                                     </tr>
                                 </tbody>
@@ -395,6 +480,9 @@ export default {
 .html-class {
     color: #9cdcfe;
 }
+.html-bracket {
+    color: #ffd710;
+}
 
 .html-class-writed {
     color: #ce9178;
@@ -423,11 +511,15 @@ export default {
     }
 }
 
-section {
-    // background: $color-background-secondary;
-    margin: 30;
-    padding: 122px;
-}
+// section {
+//     // background: $color-background-secondary;
+//     // margin: 30;
+//     // padding-top: 122px;
+//     padding-bottom: 20px;
+//     // display: flex;
+//     // justify-content: center;
+//     // align-items: center;
+// }
 
 .about {
     display: flex;
@@ -441,7 +533,7 @@ section {
 }
 .header-windows {
     background: #323233;
-    z-index: 20;
+    // z-index: 20;
     color: #c4c0c0;
     font-size: 0.7rem;
     border: 1px solid white;
@@ -475,6 +567,7 @@ section {
     }
 
     .header-button {
+        white-space: nowrap;
         img {
             width: 10px;
             filter: invert(27%) sepia(51%) saturate(20%) brightness(250%)
@@ -558,25 +651,48 @@ table {
     }
 }
 
-.icons-top,
-.icons-bottom {
+.header-button {
     img {
-        animation: tst 0.3s both;
+        animation: icons-header 0.3s both;
         opacity: 1;
     }
 }
 
-@keyframes tst {
+.icons-top,
+.icons-bottom {
+    img {
+        animation: icons-bottom 0.3s both;
+        opacity: 1;
+    }
+}
+
+@keyframes icons-header {
+    from {
+        transform: translate(90%, -200px);
+        opacity: 0;
+    }
+}
+
+@keyframes icons-bottom {
     from {
         transform: translate(-400%, -80px);
         opacity: 0;
     }
 }
 
+.header-button img:nth-child(1) {
+    animation-delay: 0.1s;
+}
+.header-button img:nth-child(2) {
+    animation-delay: 0.2s;
+}
+.header-button img:nth-child(3) {
+    animation-delay: 0.3s;
+}
+
 .icons-top img:nth-child(1) {
     animation-delay: 0s;
 }
-
 .icons-top img:nth-child(2) {
     animation-delay: 0.1s;
 }

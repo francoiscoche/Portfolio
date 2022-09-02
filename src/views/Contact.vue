@@ -87,7 +87,7 @@ export default {
 @import './../sass/variables';
 
 .contact-container {
-    padding-top: 40px;
+    padding-top: 20px;
     animation: fromTheBottom 0.5s;
     opacity: 1;
     .contact-elem {
@@ -108,15 +108,15 @@ export default {
     }
 }
 
-section {
-    margin: 30;
-    padding: 122px;
-}
+// section {
+//     margin: 30;
+//     padding: 122px;
+// }
 
 @keyframes fromTheBottom {
     from {
         opacity: 0;
-        transform: translateY(400px);
+        transform: translateY(120px);
     }
     to {
         opacity: 1;
